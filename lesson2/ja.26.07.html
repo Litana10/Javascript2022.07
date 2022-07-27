@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0,
+           maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //                 0  1  2  3   4  5  6  7  8  9
+    let teamsscore = [ 4, 3, 0, 7, -1, 2, 2, 0, 0, 6];
+    console.log(teamsscore);
+    console.log( teamsscore [0]);
+    console.log( teamsscore [1]);
+    console.log( teamsscore [2]);
+    console.log(teamsscore[3]);
+    console.log(teamsscore[4]);
+    console.log( teamsscore[5]);
+    console.log( teamsscore [6]);
+    console.log(teamsscore [7]);
+    console.log(teamsscore[8]);
+    console.log(teamsscore[9]);
+
+    let book= {
+        title:'Mountain',
+        pageCount: 255,
+        genre: 'fantastic'
+    };
+console.log(book);
+    let book1= {
+        title: 'Dodo - bird',
+        pageCount: 30,
+        genre: 'horror'
+    };
+    console.log(book1);
+    let book3={
+        title: 'Bro',
+        pageCount:100,
+        genre: 'comedy',
+    };
+    console.log(book3);
+
+
+
+    let book4= {
+        title: 'Revenge',
+        pageCount: 268,
+        genre: 'detective',
+        authors: {
+            name: 'K. Mcloren',
+            age1: 56,
+            name1: 'D. Willow',
+            age2: 34,
+        }
+    }
+        console.log (book4.authors);
+        console.log(book4.authors['age1']);
+        console.log(book4.authors.name);
+
+        let book5={
+            title:'Watermelon',
+            pageCount: 60,
+            genre: 'science',
+            authors: {
+                name4:'C.Talker',
+                age4: 44,
+                name5: 'B.Finger',
+                age5:66,
+                name6: 'H.Edison',
+                age6:39
+            }
+        }
+        console.log(book5.authors);
+        console.log(book5.genre);
+        console.log(book5.authors.age5);
+
+        let book6={
+            title: 'Henry4',
+            pageCount: 233,
+            genre: 'history',
+            authors:{
+                name7: 'S.Kelly',
+                age7:42,
+                name8: 'D.Hrakl',
+                age8:37
+            }
+        }
+        console.log(book6.authors);
+        console.log(book6.authors.name7)
+
+let users =[
+    {name21:'oleh', username: 'aleh', password: 'rama'},
+    {name22:'olia', username: 'olio', password: 123},
+    {name23:'ira', username: 'ari', password: '0000'},
+    {name24:'tolik', username: 'kilot', password: 4343},
+    {name25:'zina', username: 'nazi', password: 6789},
+    {name26:'katya', username: 'kiki', password: 8887},
+    {name27:'lesya', username: 'lisa', password: 5123},
+    {name28:'dima', username: 'madi', password: 6565},
+    {name29:'roma', username: 'maro', password: 3456},
+    {name30:'sasha', username: 'shasha', password: 'leh'}
+]
+    console.log(users[0].password);
+        console.log(users[1].password);
+        console.log(users[2].password);
+        console.log(users[3].password);
+        console.log(users[4].password);
+        console.log(users[5].password);
+        console.log(users[6].password);
+        console.log(users[7].password);
+        console.log(users[8].password);
+        console.log(users[9].password)
+
+    let teamplayers = {
+       name: 'vova',
+        surname: 'Hammer',
+        position: true,
+        age: 22,
+        height: 185,
+        weight: 90,
+        fast: 1.1,
+        win: 23,
+        lost: null,
+        score: 9,
+    };
+    console.log(teamplayers)
+    console.log();
+
+    let book9 = {
+        title1:'Mountain',
+        pageCount: 255,
+        genre: 'fantastic'
+    };
+    console.log(book9);
+
+    let books10= [
+        {title:'AbS', pageCount: 209, genre: 'fantastic'},
+        {title:'Mountain', pageCount: 55, genre: 'detective'},
+        {title:'CAR', pageCount: 65, genre: 'crossford'},
+        {title:'GORILLA', pageCount: 95, genre: 'science'},
+        {title:'IT', pageCount: 200, genre: 'fantasy'}
+    ];
+    let AbS = books10[0];
+    console.log(AbS);
+
+
+
+</script>
+
+</body>
+</html>
+
+
+
+- Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors.
+Поле "автори" - масив. Кожен автор має поля name,age
+- Створити масив з 10 об'єктами які описують сутніть "користувач".
+Поля: name, username,password. Вивести в консоль пароль кожного користувача
