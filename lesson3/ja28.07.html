@@ -149,8 +149,28 @@ let numb1 = +prompt('what min?');
         }else if (numb1 === numb2){
             console.log('equal');
         }
+        let d = confirm('solve')
+        let y;
+        if (d){
+            y=25*25-2;
+        }else{
+            y=35;
+        }
+        console.log(y);
+    //є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно).
+    // Напишіть код який,за допомоги  оператора || буде присвоювати змінній х значення "default"
+    // якщо значення змінної х являється falsy (хибноподыбне, тобто кастується до false)//
 
+    let c = {};
+    console.log(c.sign);
+    if(c.sign){
+        console.log('true');
+    }else{
+        console.log('falsy')
 
+    }
+   let c1= prompt('write a sign') || 'falsy';
+    console.log(c1);
 
 </script>
 
