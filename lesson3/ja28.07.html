@@ -161,16 +161,15 @@ let numb1 = +prompt('what min?');
     // Напишіть код який,за допомоги  оператора || буде присвоювати змінній х значення "default"
     // якщо значення змінної х являється falsy (хибноподыбне, тобто кастується до false)//
 
-    let c = {};
-    console.log(c.sign);
-    if(c.sign){
+    let c = prompt('write a sign') || 'falsy';
+     if(c.sign){
         console.log('true');
     }else{
-        console.log('falsy')
+        console.log('default')
 
     }
-   let c1= prompt('write a sign') || 'falsy';
-    console.log(c1);
+
+
 
 </script>
 
