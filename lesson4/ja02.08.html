@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0,
+           maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<script>
+/*    ////- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+//- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині*/
+
+
+ /*   let items = [
+        {name: "wardrobe", quantity:5, height:165, condition:true},
+        {name:'table', quantity:2, height:110, condition:true},
+        {name:'chair', quantity:16, height:55, condition:false},
+        {name:'sofa', quantity:2, height:140, condition:false},
+        {name:'lamp', quantity:15, height:35, condition:true},
+        {name:'TV', quantity:54, height:65, condition:true},
+        {name:'camera', quantity:22, height:18, condition:true},
+        {name:'laptop', quantity:32, height:35, condition:true},
+        {name:'piano', quantity:4, height:150, condition:false},
+        {name:'dish-washer', quantity:34, height:150, condition:false},
+        {name:'vacuum', quantity:87, height:55, condition:false},
+        {name:'fridge', quantity:6, height:200, condition:true},
+        {name:'dryer', quantity:4,  height:15, condition:true}
+    ];*/
+
+    for (d=0;d<4;d++){
+        document.write(`<div>fuk</div>`);
+    }
+    for( a=0;a<4;a++){
+        document.write(`<div>fuk ${a}</div>`);
+    }
+    /*for (const item of items) {
+        document.write(`<div>${item. name}</div>`);
+    }
+
+    for ( const item of items) {
+        document.write(`<div>
+            <h1> ${item.name} ${item.quantity} </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quaerat ut vel.</p>
+        </div>
+    `);
+    }
+
+    for (let i =3;i<13;i++){
+        console.log(items[i]);
+    }*/
+    // За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+/*- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.//
+    */
+/*let items1 = [
+    {name: "wardrobe", quantity:5, height:165, condition:true},
+    {name:'table', quantity:2, height:110, condition:true},
+    {name:'chair', quantity:16, height:55, condition:false},
+    {name:'sofa', quantity:2, height:140, condition:false},
+    {name:'lamp', quantity:15, height:35, condition:true},
+    {name:'TV', quantity:54, height:65, condition:true},
+    {name:'camera', quantity:22, height:18, condition:true},
+    {name:'laptop', quantity:32, height:35, condition:true},
+    {name:'piano', quantity:4, height:150, condition:false},
+    {name:'dish-washer', quantity:34, height:150, condition:false},
+    {name:'vacuum', quantity:87, height:55, condition:false},
+    {name:'fridge', quantity:6, height:200, condition:true},
+    {name:'dryer', quantity:4,  height:15, condition:true}
+];*/
+/*
+let i=0;
+while (i <20){
+    document.write(`<div>Lorem ipsum dolor.</div>`
+    );
+    i++;
+}
+let o=0;
+while (o<20){
+    document.write(`<div>
+<h1>Lorem ipsum dolor.</h1> ${o}</div>`);
+    o++;
+}
+let i=0;
+while(i<20){
+    document.write(`<div> hfgd ${i}</div>`);
+    i++
+}
+*/
+
+/*Використовуючи данні з масиву, за допомоги document.write та циклу
+побудувати структуру по шаблону
+Масив:*/
+
+
+  /*  let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+
+ШАБЛОН:
+    <ul>
+        <li>ITEM OF ARRAY</li>
+        &lt;!&ndash;
+        і тд інші об'єкти масиву
+        ...
+        ...
+        ...
+        &ndash;&gt;
+    </ul>
+
+замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву*/
+/*
+let listofitems=['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write(`<ul>`)
+for(const listOfItem of listofitems){
+    document.write(`<li> ${listofitems}</li>`);
+}
+document.write(`</ul>`)
+*/
+
+
+
+/*let listofitems = [
+{name: 'html', time: 31, status: false},
+{name: 'css', time: 30, status: true},
+{name: 'javascript', time: 29, status: true},
+{name: 'mysql', time: 28, status: false},
+{name: 'mongodb', time: 30, status: true},
+{name: 'react', time: 31, status: false},
+{name: 'angular', time: 28, status: false},
+{name: 'node.js', time: 29, status: true}
+    ];*/
+
+
+
+
+//Використовуючи данні з масиву, за допомоги document.write та циклу
+/*побудувати структуру по шаблону  Зробити адекватну стилізацію
+Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон*/
+
+let products = [
+    {
+        title: 'milk',
+        price: 22,
+        image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+    },
+    {
+        title: 'juice',
+        price: 27,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+    },
+    {
+        title: 'tomato',
+        price: 47,
+        image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+    },
+    {
+        title: 'tea',
+        price: 15,
+        image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+    },
+];
+for (const product of products){
+    document.write(`<div class="product-card">
+<h3 class="product-title"> ${product.title}  ${product.price}</h3>
+    <img src="${product.image}"alt"img"class="product-title">
+    </div>`);
+}
+
+
+
+    /*//за допомоги циклу вивести:
+    - користувачів зі статусом true
+    - користувачів зі статусом false
+    - користувачів які старші за 30 років
+    -->//*/
+
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+];
+    for ( const user of users){
+    if(user.status){
+        console.log(user);
+    }
+}
+    for(const user of users){
+        if(user.status ===false){
+            console.log(user);
+        }
+    }
+    for(const user of users) {
+        if (user.age >= 30) {
+            console.log(user);
+        }
+
+        for (const userkey in user) {
+            console.log(user[userkey]);
+        }
+        console.log('_______________________');
+            }
+
+</script>
+</body>
+</html>
+
+<!--
+//- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+- За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
+
+- Використовуючи данні з масиву, за допомоги document.write та циклу
+побудувати структуру по шаблону
+Масив:
+
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+
+ШАБЛОН:
+<ul>
+    <li>ITEM OF ARRAY</li>
+    &lt;!&ndash;
+        і тд інші об'єкти масиву
+         ...
+         ...
+         ...
+    &ndash;&gt;
+</ul>
+
+замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
+
+-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
+
+Використовуючи данні з масиву, за допомоги document.write та циклу
+побудувати структуру по шаблону  Зробити адекватну стилізацію
+Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон
+
+let products = [
+{
+title: 'milk',
+price: 22,
+image: 'https://www.mcqueensdairies.co.uk/wp-content/uploads/2019/02/Mcqueens_1litre_whole_organic-300x300-3.jpg'
+},
+{
+title: 'juice',
+price: 27,
+image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+},
+{
+title: 'tomato',
+price: 47,
+image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+},
+{
+title: 'tea',
+price: 15,
+image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
+},
+];
+
+ШАБЛОН
+<div class="product-card">
+    <h3 class="product-title">TITLE. Price - PRICE</h3>
+    <img src="IMAGE" alt="" class="product-image">
+</div>
+Замість TITLE PRICE IMAGE - підставити відповідні поля з об'єкту
+&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;
+
+є масив
+let users = [
+{name: 'vasya', age: 31, status: false},
+{name: 'petya', age: 30, status: true},
+{name: 'kolya', age: 29, status: true},
+{name: 'olya', age: 28, status: false},
+{name: 'max', age: 30, status: true},
+{name: 'anya', age: 31, status: false},
+{name: 'oleg', age: 28, status: false},
+{name: 'andrey', age: 29, status: true},
+{name: 'masha', age: 30, status: true},
+{name: 'olya', age: 31, status: false},
+{name: 'max', age: 31, status: true}
+];
+за допомоги циклу вивести:
+- користувачів зі статусом true
+- користувачів зі статусом false
+- користувачів які старші за 30 років
+-->
