@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbdeb7c0-2c90-43b8-9139-f55b3f0c8d7b" name="Changes" comment="gf">
-      <change afterPath="$PROJECT_DIR$/lesson4/ja02.08.html" afterDir="false" />
+    <list default="true" id="fbdeb7c0-2c90-43b8-9139-f55b3f0c8d7b" name="Changes" comment="ву">
       <change afterPath="$PROJECT_DIR$/lesson5/ja04.08.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/practice/pact.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -54,7 +53,8 @@
       <updated>1658763439759</updated>
       <workItem from="1658763441534" duration="73855000" />
       <workItem from="1659380751820" duration="38272000" />
-      <workItem from="1659641887549" duration="8012000" />
+      <workItem from="1659641887549" duration="28666000" />
+      <workItem from="1659775215467" duration="23269000" />
     </task>
     <task id="LOCAL-00001" summary="cfg">
       <created>1658763690294</created>
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659371075808</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ву">
+      <created>1659652481171</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659652481171</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +130,7 @@
     <MESSAGE value="hbgjbg" />
     <MESSAGE value="fg" />
     <MESSAGE value="gf" />
-    <option name="LAST_COMMIT_MESSAGE" value="gf" />
+    <MESSAGE value="ву" />
+    <option name="LAST_COMMIT_MESSAGE" value="ву" />
   </component>
 </project>
