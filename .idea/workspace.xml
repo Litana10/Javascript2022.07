@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbdeb7c0-2c90-43b8-9139-f55b3f0c8d7b" name="Changes" comment="ву">
-      <change afterPath="$PROJECT_DIR$/lesson5/ja04.08.html" afterDir="false" />
+    <list default="true" id="fbdeb7c0-2c90-43b8-9139-f55b3f0c8d7b" name="Changes" comment="oh">
+      <change afterPath="$PROJECT_DIR$/lesson6/ja09.08.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/practice/pact.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson3/ja28.07.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/ja28.07.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5/ja04.08.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/ja04.08.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -54,7 +55,8 @@
       <workItem from="1658763441534" duration="73855000" />
       <workItem from="1659380751820" duration="38272000" />
       <workItem from="1659641887549" duration="28666000" />
-      <workItem from="1659775215467" duration="23269000" />
+      <workItem from="1659775215467" duration="26490000" />
+      <workItem from="1659973507464" duration="34474000" />
     </task>
     <task id="LOCAL-00001" summary="cfg">
       <created>1658763690294</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659652481171</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="oh">
+      <created>1659893890345</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659893890345</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +140,7 @@
     <MESSAGE value="fg" />
     <MESSAGE value="gf" />
     <MESSAGE value="ву" />
-    <option name="LAST_COMMIT_MESSAGE" value="ву" />
+    <MESSAGE value="oh" />
+    <option name="LAST_COMMIT_MESSAGE" value="oh" />
   </component>
 </project>
