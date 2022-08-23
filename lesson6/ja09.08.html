@@ -101,6 +101,8 @@ console.log(map)
     });
     console.log(filteredduration);
 
+
+
     // !--описати колоду карт-->
     // <!-- - знайти піковий туз-->
     // <!-- - всі шістки-->
@@ -129,6 +131,8 @@ let cards = [
     {cardsuit:'spade',   value:  2,      color:'black'},
     {cardsuit:'clubs',   value:10,       color: 'black'}
 ]
+
+    console.log(cards.filter(card => card.color=== 'red' || card.cardsuit === 'spade'))
 //     cards.forEach(value=>console.log(value));
 // let filtercards= cards.filter(value=>value==='spade','ace');
 // console.log(filtercards)

@@ -13,42 +13,62 @@
 /*1творити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 2- створити функцію яка обчислює та повертає площу кола з радіусом r*/
 
+//
+// let calc = (a,b) => a*b;
+// console.log (calc(2,8));
+//
+// let calc1 = (p,r) => p*(r*r);
+// console.log(calc1(3.14, 8))
+//
+// /*3- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r*/
+//
+// let calc2=(p,r,h)=> 2*p*r*(r+h)
+// console.log(calc2(p=3.14,r=8,h=6))
 
-let calc = (a,b) => a*b;
-console.log (calc(2,8));
+const calc =(a,b)=>a+b;
+console.log(a=20,b=13);
 
-let calc1 = (p,r) => p*(r*r);
-console.log(calc1(3.14, 8))
+let p=3.14;
+function calc2 (p,r){
+    return p*r*r;
+}
+console.log(calc2(p,r=34));
 
-/*3- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r*/
-
-let calc2=(p,r,h)=> 2*p*r*(r+h)
-console.log(calc2(p=3.14,r=8,h=6))
-
+let pi=3.14;
+function calc3(pi,h,r){
+    return 2*pi*r*(r+h);
+}
+console.log (calc(pi,h=23,r=12))
 /*4- створити функцію яка приймає масив та виводить кожен його елемент*/
 
-let items = [
-    {name: "wardrobe", quantity:5, height:165, condition:true},
-    {name:'table', quantity:2, height:110, condition:true},
-    {name:'chair', quantity:16, height:55, condition:false},
-    {name:'sofa', quantity:2, height:140, condition:false},
-    {name:'lamp', quantity:15, height:35, condition:true},
-    {name:'TV', quantity:54, height:65, condition:true},
-    {name:'camera', quantity:22, height:18, condition:true},
-    {name:'laptop', quantity:32, height:35, condition:true},
-    {name:'piano', quantity:4, height:150, condition:false},
-    {name:'dish-washer', quantity:34, height:150, condition:false},
-    {name:'vacuum', quantity:87, height:55, condition:false},
-    {name:'fridge', quantity:6, height:200, condition:true},
-    {name:'dryer', quantity:4,  height:15, condition:true}
-];
-    function arraywriter (array) {
-    for (const slot of array) {
-        console.log(slot);
-    }
-
+// let items = [
+//     {name: "wardrobe", quantity:5, height:165, condition:true},
+//     {name:'table', quantity:2, height:110, condition:true},
+//     {name:'chair', quantity:16, height:55, condition:false},
+//     {name:'sofa', quantity:2, height:140, condition:false},
+//     {name:'lamp', quantity:15, height:35, condition:true},
+//     {name:'TV', quantity:54, height:65, condition:true},
+//     {name:'camera', quantity:22, height:18, condition:true},
+//     {name:'laptop', quantity:32, height:35, condition:true},
+//     {name:'piano', quantity:4, height:150, condition:false},
+//     {name:'dish-washer', quantity:34, height:150, condition:false},
+//     {name:'vacuum', quantity:87, height:55, condition:false},
+//     {name:'fridge', quantity:6, height:200, condition:true},
+//     {name:'dryer', quantity:4,  height:15, condition:true}
+// ];
+//     function arraywriter (array) {
+//     for (const slot of array) {
+//         console.log(slot);
+//     }
+//
+// }
+//     arraywriter(items);
+let array= [1,2,3,4,5,6,7];
+function arraywrite(write){
+    for(const element of arraywrite){
+    console.log(element);
 }
-    arraywriter(items);
+arraywrite (array);
 
 /*5- створити функцію яка створює параграф з текстом. Текст задати через аргумент*/
 function creator (text) {
@@ -60,6 +80,12 @@ creator (`Lorem ipsum dolor sit amet, consectetur adipisicing elit.
  Accusamus accusantium aperiam beatae, blanditiis corporis culpa
 dolore dolorem, ex illo impedit ipsam labore magnam omnis porro
 praesentium quia quibusdam quidem quisquam rem saepe velit voluptatibus.`);
+
+function dek (content){
+document.write('<p>${content}</p>');
+}
+
+dek ('hhjijnijnk');
 
 /*6- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий*/
 
@@ -142,32 +168,32 @@ console.log(minnumb(numb));
 
 
 
-function count( ){
-
-    let res;
-    switch (arguments[0]) {
-        case '+':
-            for(let i=1; i<arguments.length;i++){
-                const num=arguments[i];
-                res +=num;
-            }
-
-    }
-    return res;
-}
-console.log(count(1,2,10,'+'));
+// function count( ){
+//
+//     let res;
+//     switch (arguments[0]) {
+//         case '+':
+//             for(let i=1; i<arguments.length;i++){
+//                 const num=arguments[i];
+//                 res +=num;
+//             }
+//
+//     }
+//     return res;
+// }
+// console.log(count(1,2,10,'+'))
 
 /*збільшити рандомні обєкти на 5*/
-const arr1=[]
-    for (let i=0; i<10;i++){
-        arr1[i]=Math.round(x=Math.random()*100)
-}
-    const arr2=[]
-for (let i=0; i<arr1.length;i++){
-    arr2[i]=arr1[i]*5
-}
-console.log(arr1);
-console.log(arr2);
+// const arr1=[]
+//     for (let i=0; i<10;i++){
+//         arr1[i]=Math.round(x=Math.random()*100)
+// }
+//     const arr2=[]
+// for (let i=0; i<arr1.length;i++){
+//     arr2[i]=arr1[i]*5
+// }
+// console.log(arr1);
+// console.log(arr2);
 
 
 </script>
